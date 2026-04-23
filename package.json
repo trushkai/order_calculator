@@ -1,0 +1,14 @@
+{
+  "name": "order-calculator",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "client:dev": "npm run dev -w apps/client",
+    "server:dev": "npm run dev -w apps/server",
+    "client:build": "npm run build -w apps/client",
+    "server:build": "npm run build -w apps/server"
+  }
+}

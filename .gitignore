@@ -1,0 +1,16 @@
+node_modules
+package-lock.json
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+.env
+.env.*
+!.env.example
+!.env.sample
+dist
+.vite
+coverage
+.DS_Store
+.idea
+.vscode
+*.log
